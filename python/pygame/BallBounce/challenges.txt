@@ -1,0 +1,102 @@
+- Make a Ball Bounce infinitely around the screen
+BallBounce.py, test.png
+
+- Make a Ball Object that can infinitely Bounce around the screen
+BallBounceOO.py, Ball.py, test.png
+
+- Create a Bouncing Ball without having a trail
+BallBounceOO.py
+
+- Replace the 'test.png' file with a vector circle
+BallBounceOO.py
+
+- Create a new Ball Object create at the screen position for each mouse click
+BallBounceOO.py
+
+- Create a new Ball with different colors each time
+BallBounceOO.py
+
+- Implement an FPS limiter so that it doesn't run too fast in the background
+BallBounceOO.py
+
+- Create an in game hot key to toggle 'trails'
+BallBounceOO.py ( r20 )
+
+- Play a sound every time a ball bounces off of a Wall
+Ball.py ( r19 )
+
+- Play background music
+BallBounceOO.py ( r18 )
+
+- Add a way to exit the game
+BallBounceOO.py ( r18 )
+
+- Add a bounce counter
+Ball.py ( r? )
+
+- Add a Ball Counter
+Ball.py ( r22 ) created a Class Variable
+
+- Add a Ball Bounce Counter
+Ball.py ( r24 ) created a Class Variable
+
+- Add Key 'c' to display Class Variable
+BallBounceOO.py ( r25 )
+
+- add a destructor method to Ball.py to decriment the ball_count value
+Ball.py ( r27 )
+
+- add an offset_position method that leverages set_position
+Ball.py ( r29 )
+
+- rework ball bounce sound playing to leverage method and throw exception for sounds that don't exist
+Ball.py ( r30 )
+
+- add comments/documentation to Ball.py class
+Ball.py ( r40 )
+
+- modify Ball.py to be a base class and create VectorBall and SurfaceBall classes that inherit/implement Ball
+Ball.py, VectorBall.py, ImageBall.py ( r43 )
+
+- Add ability for instance bounce count and accessor method
+
+
+- Create a background/multilayer image
+
+
+- Create a maze for balls to bounce off of
+
+
+- Volume Select/Setting for Background/Foreground volume
+
+
+- Create a method for change Ball's velocity settings
+
+
+- Create a method to click on balls to remove them
+
+
+- Create a way for Balls to interact with each other (bounce?)
+
+
+- Play a sound when a Ball bounces off of another ball
+
+
+- Create a way to control Ball colors (create a color select pane/eye dropper?)
+
+
+- Seperate Drawing methods/behavior from bouncing behavior
+
+
+- Set Velocity based on mouse down -> mouse up distance for new Ball
+
+
+- Create a menu interface 'overlay' to set various options
+
+
+- Throw an exception if a set_position call is out of bounds and cannot be 'recovered'
+
+
+- Make the Ball Object, or sub class object that accounts for 'gravity'
+-->  Remove from this project and create a 'BallGravity' Project or something...
+-->  or... Modify Ball class so it can handle either bouncing or gravity...  TBD
